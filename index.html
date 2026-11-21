@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PainTeX · Paint, annotate and LaTeX equations for Mac</title>
+<meta name="description" content="PainTeX is a paint and markup app for the Mac with LaTeX equations built in. Annotate screenshots with arrows, numbered markers, text and typeset math.">
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="katex/katex.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div>
+      <h1 class="tex">PainT<span class="e">e</span>X</h1>
+      <p class="lede">Paint, mark up and drop typeset equations onto any screenshot, right on your Mac.</p>
+      <div class="cta">
+        <a class="button" href="https://apps.apple.com/app/id6810508435">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.37 12.73c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.77-3.32-1.8-1.41-.14-2.76.83-3.48.83-.72 0-1.83-.81-3-.79-1.55.02-2.97.9-3.77 2.28-1.6 2.78-.41 6.9 1.15 9.16.76 1.1 1.67 2.34 2.86 2.3 1.15-.05 1.58-.74 2.97-.74 1.39 0 1.78.74 3 .72 1.24-.02 2.02-1.12 2.78-2.23.87-1.28 1.23-2.52 1.25-2.58-.03-.01-2.4-.92-2.4-3.69zM14.1 5.98c.63-.77 1.06-1.83.94-2.89-.91.04-2.01.61-2.66 1.37-.58.67-1.09 1.75-.96 2.79 1.02.08 2.05-.52 2.68-1.27z"/></svg>
+          Get it on the Mac App Store
+        </a>
+        <span class="meta">macOS 14 or later · Apple silicon and Intel</span>
+      </div>
+    </div>
+    <img class="icon" src="icon.png" alt="PainTeX app icon: the letters TeX with a paintbrush as the T, painting a red stroke on paper" width="230" height="230">
+  </div>
+  <div class="paper-strip" aria-hidden="true"></div>
+</header>
+
+<main>
+  <section>
+    <h2>Type the math. See it typeset where you clicked.</h2>
+    <p class="section-lede">Pick the equation tool, click anywhere on your image and type LaTeX. A live preview appears on the canvas as you type. Paste straight from a .tex file: <code>$…$</code>, <code>\[…\]</code>, <code>equation</code>, <code>align</code>, <code>cases</code>, matrices and arrays all work.</p>
+    <div class="eq-list">
+      <div class="eq"><code>\sigma = \frac{F}{A}</code><div class="out" data-tex="\sigma = \frac{F}{A}"></div></div>
+      <div class="eq"><code>x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}</code><div class="out" data-tex="x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}"></div></div>
+      <div class="eq"><code>\begin{align*}
+f(x)  &amp;= x^2 + 2x \\
+f'(x) &amp;= 2x + 2
+\end{align*}</code><div class="out" data-tex="\begin{aligned} f(x) &= x^2 + 2x \\ f'(x) &= 2x + 2 \end{aligned}"></div></div>
+      <div class="eq"><code>q = -k \nabla T</code><div class="out" data-tex="q = -k \nabla T"></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Everything you reach for when marking up results</h2>
+    <p class="section-lede">Made for engineers, students and anyone who screenshots a plot and needs to say “look here.” It works like the classic Paint you already know.</p>
+    <div class="features">
+      <div class="feature"><span class="mark">1</span><h3>Numbered markers</h3><p>Click to drop 1, 2, 3… each perfectly centered in a circle. Set the next number or let Undo rewind it.</p></div>
+      <div class="feature"><span class="mark">2</span><h3>Arrows and shapes</h3><p>Arrow, double arrow, line, rectangle, ellipse, rounded rectangle and triangle. Color 1 outlines, Color 2 fills.</p></div>
+      <div class="feature"><span class="mark">3</span><h3>Text on the image</h3><p>Click and type right where you want it. Change font, size and color while you type.</p></div>
+      <div class="feature"><span class="mark">4</span><h3>Move anything later</h3><p>Text, equations, markers and shapes stay movable. Drag, nudge with the arrow keys, delete, or double-click to edit.</p></div>
+      <div class="feature"><span class="mark">5</span><h3>Paint and edit</h3><p>Brush, pencil, eraser, fill bucket, crop, resize, rotate and a coarse or fine grid. Each tool remembers its own size.</p></div>
+      <div class="feature"><span class="mark">6</span><h3>Paste in, copy out</h3><p>Paste a screenshot straight from the clipboard, then copy the result into your email, report or slides.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Private by design</h2>
+    <p class="note">PainTeX runs entirely on your Mac. It never connects to the internet, has no accounts and collects no data. Read the <a href="privacy.html">privacy policy</a>.</p>
+  </section>
+
+  <section>
+    <h2>Questions or ideas</h2>
+    <p class="section-lede">Found a bug or have a feature request? Reach me through <a href="https://www.linkedin.com/in/aidenazar/">LinkedIn</a> or my <a href="https://aiden-azarnoush.github.io">website</a>.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div>Written by Aiden Azarnoush</div>
+    <div class="footer-links">
+      <a href="https://github.com/aiden-azarnoush/PainTeX"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>Website source</a>
+      <a href="https://github.com/aiden-azarnoush?tab=repositories">All my repositories</a>
+      <a href="https://aiden-azarnoush.github.io">aiden-azarnoush.github.io</a>
+    </div>
+    <div>Found this useful? Buy me a coffee:
+      <a href="https://paypal.me/azarnoush/3">$3</a> ·
+      <a href="https://paypal.me/azarnoush/5">$5</a> ·
+      <a href="https://paypal.me/azarnoush">other</a>
+    </div>
+    <div class="dedication">Dedicated to my mother, Simin Nematpour.</div>
+  </div>
+</footer>
+
+<script defer src="katex/katex.min.js"></script>
+<script>
+  window.addEventListener("load", function () {
+    if (!window.katex) return;
+    document.querySelectorAll("[data-tex]").forEach(function (el) {
+      try { katex.render(el.getAttribute("data-tex"), el, { displayMode: true, throwOnError: false }); }
+      catch (e) { el.textContent = el.getAttribute("data-tex"); }
+    });
+  });
+</script>
+</body>
+</html>
